@@ -1,41 +1,58 @@
-
-  .body1   {
-    background:gray;
-    margin:0;
+body {
+  display: flex;
+  justify-content: center;
+  
+ 
 }
-header {
+.body0 {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  
+ 
+}
+  
+  .body1   {
+    display: flex;
+    justify-content: center;
+    margin:0;
+    width:500px;
+}
+.header {
     background: white;
     padding:10px;
+    display:flex;
+    flex-direction: row;
+   
 }
-header h1{
-    margin: 0;
+.button-options{
+  display:flex;
+  justify-content:flex-end;
+  width: 75%;
 }
-div.post{
+.post{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
   background: white;
-  margin-top:10px;
 }
-div.container {
-  width:600px;
-  margin:auto;
+.intercative{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
-#instagram {
-width:50px;
+.likes-options{
+  width:30%;
+  display:flex;
+  
 }
-.img {
-  width: 100%;
-  }
-div.post p, div.post h2{
-    padding:10px;
-    margin:0;
+.save{
+  width:60%;
+  display:flex;
+  justify-content:flex-end;
+  
 }
-div.post .post-header div:first-child{
-  display:inline-block;
-  width:75%;
-}
-div.post .post-header div:last-child{
-  display:inline-block;
-  width:20%;
-  text-align: right;
-  padding:10px;
-  color:gray;
-}
+
+
+
+
