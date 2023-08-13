@@ -83,7 +83,7 @@ body {
   view-timeline-axis: block;
   animation-timeline: --image;
   animation-name: show;
-  animation-range: entry 0% cover 60%;
+  animation-range: entry 0% cover 70%;
 }
 .logo {
   border-radius: 30%;
