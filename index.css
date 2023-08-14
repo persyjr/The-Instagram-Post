@@ -3,36 +3,36 @@
   font-family: 'Roboto', sans-serif;
   font-size: 1.1rem;
   text-align:justify;
+  color: white;
 }
 body {
   display: flex;
   justify-content: center;
   padding: 0px;
   width: 100%;
+  background-color: black;
 }
 
 .body0 {
+  max-width:min-content;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 1px; 
 }
   
 .body1   {
     display: flex;
-    justify-content: center;
-    margin:5rem;
-    height: 100vh;
+    justify-content: center; 
+    max-height: 130vh;
     width: 80vh;
-    
+    background-color:rgba(15, 169, 180, 0.04); 
 }
 
 .header {
-    background: white;
-    padding:10px;
+    background-color:rgba(0, 234, 255, 0.032);  
+    padding:15px;
     display:flex;
     flex-direction: row;
-   
 }
 .button-options{
   display:flex;
@@ -43,29 +43,27 @@ body {
   display: flex;
   flex-direction: column;
   align-content: center;
-  background: white;
-  
-  
 }
 .intercative{
+  background-color:rgba(12, 43, 45, 0.09);    
+  
+  padding:15px 0px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-  padding-bottom: 50px;
+  justify-content: space-around;
+  align-content: end;
   }
 .likes-options{
   width:30%;
   display:flex;
-  
 }
 .save{
   width:60%;
   display:flex;
   justify-content:flex-end;
-  
 }
 .fa:hover{
-  background-color: aqua;
+  background-color: rgba(255, 8, 197, 0.61);
   border-radius: 30%;
   padding: 0px 3% ;
 }
@@ -98,7 +96,12 @@ body {
   font-weight: bold;
 }
 .post > img{
-  max-height: 100vh;
+  max-height: 130vh;
   max-width: auto;
-  object-fit: cover;
+  object-fit: cover; 
+}
+.separator{
+  height: 10px;
+  width: auto;
+  background-color: black;
 }
