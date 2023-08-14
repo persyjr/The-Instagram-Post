@@ -63,7 +63,7 @@ body {
   justify-content:flex-end;
 }
 .fa:hover{
-  background-color: rgba(255, 8, 197, 0.61);
+  background-color: rgba(8, 243, 255, 1);
   border-radius: 30%;
   padding: 0px 3% ;
 }
